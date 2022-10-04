@@ -5,27 +5,25 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.12</version>
+        <version>2.7.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.jaugusto</groupId>
-    <artifactId>str-producer</artifactId>
+    <groupId>com.augustolustosa</groupId>
+    <artifactId>srt-producer2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>str-producer</name>
-    <description>str-producer</description>
+    <name>srt-producer2</name>
+    <description>srt-producer2</description>
     <properties>
-        <java.version>19</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.7.3</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
-            <version>2.9.0</version>
         </dependency>
 
         <dependency>
@@ -36,13 +34,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <version>2.7.3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka-test</artifactId>
-            <version>2.9.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

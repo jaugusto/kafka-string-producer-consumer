@@ -1,13 +1,13 @@
-package com.jaugusto.strproducer;
+package com.augustolustosa.srtproducer2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StrProducerApplication {
+public class SrtProducer2Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(StrProducerApplication.class, args);
+        SpringApplication.run(SrtProducer2Application.class, args);
     }
 
 }
