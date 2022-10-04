@@ -1,6 +1,6 @@
-package com.augustolustosa.srtproducer2.resources;
+package com.jaugusto.srtproducer.resources;
 
-import com.augustolustosa.srtproducer2.services.StringProducerService;
+import com.jaugusto.srtproducer.services.StringProducerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.augustolustosa.srtproducer2.config;
+package com.jaugusto.srtproducer.config;
 
 
 import lombok.RequiredArgsConstructor;

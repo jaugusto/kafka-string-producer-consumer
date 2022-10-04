@@ -1,4 +1,4 @@
-package com.augustolustosa.srtproducer2;
+package com.jaugusto.srtproducer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
